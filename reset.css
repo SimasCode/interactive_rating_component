@@ -16,7 +16,7 @@ html {
 
 body {
   margin: 0;
-  /* background-color: var(--very-dark-blue); */
+  background-color: var(--very-dark-blue);
 }
 
 h1,

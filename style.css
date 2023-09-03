@@ -16,6 +16,10 @@
   padding: 34px 24px 37px 24px;
 }
 
+.hide {
+  display: none;
+}
+
 .circle {
   background-color: var(--dark-blue);
   display: flex;

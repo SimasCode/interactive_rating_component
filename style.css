@@ -1,4 +1,6 @@
-.container {
+.rate-container,
+.thanks-container {
+  border: 1px solid #000;
   margin: 0 auto;
   padding: 24px 24px 32px 24px;
   max-width: 375px;
@@ -9,16 +11,23 @@
   );
 }
 
-.image {
-  background-color: var(--dark-blue);
-  margin-bottom: 14px;
-  display: flex;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
+.thanks-container {
+  text-align: center;
+  padding: 34px 24px 37px 24px;
 }
 
-.title {
+.circle {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.rate-title {
   color: var(--white);
   font-size: 24px;
   font-style: normal;
@@ -27,7 +36,7 @@
   margin-bottom: 14px;
 }
 
-.text {
+.rate-text {
   color: var(--light-grey);
   font-size: 14px;
   font-style: normal;
@@ -35,7 +44,21 @@
   line-height: 22px;
 }
 
-.btn {
+.rate-group {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 0;
+}
+
+.radio {
+  display: none;
+}
+
+.submit-btn {
   font-family: 'Overpass', sans-serif;
   color: var(--white);
   background-color: var(--orange);
@@ -57,28 +80,53 @@
   color: var(--orange);
 }
 
-.numberContainer {
+.number {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: var(--medium-grey);
+  background-color: var(--dark-blue);
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+}
+
+.number:hover {
+  color: var(--white);
+  background-color: var(--orange);
+}
+
+.thanks-image {
   margin-bottom: 24px;
-  padding: 0;
+}
 
-  .number {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    color: var(--medium-grey);
-    background-color: var(--dark-blue);
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-  }
+.thanks-result {
+  display: inline-block;
+  color: var(--orange);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  background-color: var(--dark-blue);
+  padding: 5px 12px;
+  border-radius: 22.5px;
+  margin-bottom: 24px;
+}
 
-  .number:hover {
-    color: var(--white);
-    background-color: var(--orange);
-  }
+.thanks-title {
+  color: var(--white);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.thanks-text {
+  color: var(--light-grey);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }

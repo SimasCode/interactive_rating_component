@@ -29,4 +29,16 @@ p {
   margin-top: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 300px;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* common rules - END */

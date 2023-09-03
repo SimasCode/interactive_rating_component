@@ -134,3 +134,20 @@
   font-weight: 400;
   line-height: 22px;
 }
+
+.radio[type='radio']:checked + .number {
+  color: var(--white);
+  background-color: var(--medium-grey);
+}
+
+.attribution {
+  color: var(--light-grey);
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--orange);
+}

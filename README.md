@@ -4,8 +4,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/SimasCode/interactive_rating_component)
+- Live Site URL: [Netlify](https://interactiveratingsimjan.netlify.app/)
 
 ### Built with
 
@@ -13,6 +13,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- JavaScript
 
 ### Useful resources
 
